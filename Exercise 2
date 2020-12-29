@@ -1,0 +1,49 @@
+Question 1)Consider the following code snippet.
+
+if (aNumber >= 0)
+    if (aNumber == 0)
+        System.out.println("first string");
+else System.out.println("second string");
+System.out.println("third string");
+
+a)What output do you think the code will produce if aNumber is 3?
+Ans a)second string
+      third string
+
+b)Write a test program containing the previous code snippet; make aNumber 3. What is the output of the program? Is it what 
+you predicted? Explain why the output is what it is. In other words, what is the control flow for the code snippet?
+Ans b)if(3>=0)
+         if(3==0)
+          System.out.println("first string");
+else System.out.println("second string");
+System.out.println("third string");
+
+Explaination:-
+So according to the code,for the first if statement,condition is true,so we will go to second if statement,the condition now
+becomes false because 3 is not equal to 0,so now the else clause will be executed,so the second print statement will be 
+printed i.e."second string".Then the final print statement is outside of any if statement, so it will always be executed,
+so"third string"will always be displayed.
+
+c)Using only spaces and line breaks, reformat the code snippet to make the control flow easier to understand. 
+Ans c)if (aNumber >=0)
+       if( aNumber ==0)
+         System.out.println("first string");
+   else
+      System.out.println("second string");
+
+     System.out.println("third string");
+
+d) Use braces { and } to further clarify the code and reduce the possibility of errors by future maintainers of the code.
+Ans d)if (aNumber >=0)
+       {
+      if( aNumber ==0)
+    {
+         System.out.println("first string");
+}
+   else
+{
+      System.out.println("second string");
+}
+}
+
+     System.out.println("third string");
