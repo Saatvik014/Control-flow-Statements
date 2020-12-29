@@ -1,0 +1,19 @@
+Questions and Answers:-
+
+1)The most basic control flow statement supported by the Java programming language is the ___ statement.
+Ans) If-else
+
+2)The ___ statement allows for any number of possible execution paths.
+Ans) Switch
+
+3)The ___ statement is similar to the while statement, but evaluates its expression at the ___ of the loop.
+Ans) Do-while, end
+
+4)How do you write an infinite loop using the for statement?
+Ans)for(; ;){
+}
+
+5)How do you write an infinite loop using the while statement?
+Ans)while(true)
+{
+}
